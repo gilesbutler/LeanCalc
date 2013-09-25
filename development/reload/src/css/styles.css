@@ -1,0 +1,89 @@
+body {
+    background: #E9E9E9;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.ng-scope {
+    text-align: center;
+}
+
+.userWeight {
+    padding: 20px 0 10px;
+}
+
+.userWeight label, .userBodyfat label {
+    color: #424242;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.userWeight input[type=number], .userBodyfat input[type=number] {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #3299BB;
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+    width: 90%;
+    -webkit-appearance: none;
+}
+
+.userBodyfat input[type=number] {
+    background: #f9f9f9 url('../img/percent.png') 98% center no-repeat;
+    background-size: 50px;
+}
+
+.lbmResultInfo {
+    font-size: 15px;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+.lbmResultMeta  {
+    color: #3299BB;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.lbmResultMetaUnit {
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.selecter-element {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+
+.selecter {
+    margin: 20px auto 10px;
+}
+
+.selecter .selecter-selected {
+    background-size: 25px;
+    border-color: #ccc;
+    color: #3299BB;
+    font-size: 19px;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 90%;
+}
+
+.selecter .selecter-options {
+    box-shadow: none;
+    margin: 0 auto;
+    right: 0;
+    width: 90%;
+}
+
+.selecter .selecter-item {
+    color: #3299BB;
+}

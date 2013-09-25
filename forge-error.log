@@ -1,0 +1,705 @@
+2013-09-22 18:54:12,526 [   INFO] Forge tools running at version 3.3.64
+2013-09-22 18:54:12,526 [  DEBUG] Checking for update zip...
+2013-09-22 18:54:12,532 [  ERROR] No folder called 'development' found. You're trying to run your app but you haven't built it yet!
+Try forge build first.
+2013-09-22 18:54:12,533 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 422, in run
+    _assert_have_development_folder()
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 63, in _assert_have_development_folder
+    raise ForgeError(message)
+ForgeError: No folder called 'development' found. You're trying to run your app but you haven't built it yet!
+Try forge build first.
+
+2013-09-22 18:54:17,470 [   INFO] Forge tools running at version 3.3.64
+2013-09-22 18:54:17,471 [  DEBUG] Checking for update zip...
+2013-09-22 18:54:17,475 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-22 18:54:17,475 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-22 18:54:17,475 [  DEBUG] port: 38394
+2013-09-22 18:54:17,476 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-22 18:54:20,748 [  DEBUG] Checking API response for success or error
+2013-09-22 18:54:20,748 [   INFO] Update result: you already have the latest tools
+2013-09-22 18:54:20,749 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-22 18:54:21,017 [  DEBUG] Checking API response for success or error
+2013-09-22 18:54:28,342 [   INFO] authenticating as "im@giles.io"
+2013-09-22 18:54:28,343 [  DEBUG] GET https://trigger.io/api/v1/auth/hello
+2013-09-22 18:54:28,664 [  DEBUG] Checking API response for success or error
+2013-09-22 18:54:28,664 [  DEBUG] POST https://trigger.io/api/v1/auth/verify
+2013-09-22 18:54:29,085 [  DEBUG] Checking API response for success or error
+2013-09-22 18:54:29,085 [   INFO] authentication successful
+2013-09-22 18:54:29,085 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-22 18:54:29,458 [  DEBUG] Checking API response for success or error
+2013-09-22 18:54:29,636 [  DEBUG] configuration is identical to last run
+2013-09-22 18:54:29,636 [  DEBUG] POST https://trigger.io/api/v1/reload/buildevent/create
+2013-09-22 18:54:29,956 [  DEBUG] Checking API response for success or error
+2013-09-22 18:54:29,956 [  ERROR] Target required for 'forge build', e.g. 'forge build android'
+2013-09-22 18:54:29,957 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 359, in development_build
+    raise ForgeError(FORGE_BUILD_NEEDS_TARGET)
+ForgeError: Target required for 'forge build', e.g. 'forge build android'
+
+2013-09-23 14:03:24,211 [   INFO] Forge tools running at version 3.3.64
+2013-09-23 14:03:24,211 [  DEBUG] Checking for update zip...
+2013-09-23 14:03:24,216 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-23 14:03:24,216 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-23 14:03:24,216 [  DEBUG] port: 38394
+2013-09-23 14:03:24,218 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-23 14:03:25,539 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:25,539 [   INFO] Update result: you already have the latest tools
+2013-09-23 14:03:25,539 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-23 14:03:25,808 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:25,808 [  DEBUG] already authenticated via cookie - continuing
+2013-09-23 14:03:25,808 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-23 14:03:26,079 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:26,204 [  DEBUG] 'modules' has changed in configuration
+2013-09-23 14:03:26,204 [   INFO] Your local config has been changed, downloading updated build instructions.
+2013-09-23 14:03:26,204 [   INFO] Fetching generation instructions for v2.0.1 into "/var/folders/cw/69bftr2s5w91zzj8jqdcdrnh0000gn/T/forge-templates-rXogne/.template"
+2013-09-23 14:03:26,204 [  DEBUG] GET https://trigger.io/api/v1/platform/v2.0.1/core_instructions
+2013-09-23 14:03:28,932 [  DEBUG] Unzipping instructions.zip to .
+2013-09-23 14:03:28,965 [   INFO] Removing old templates if present
+2013-09-23 14:03:28,966 [  DEBUG] Removing .template 
+2013-09-23 14:03:29,083 [   INFO] Using new templates
+2013-09-23 14:03:29,083 [  DEBUG] Moving /var/folders/cw/69bftr2s5w91zzj8jqdcdrnh0000gn/T/forge-templates-rXogne/.template to .template
+2013-09-23 14:03:29,106 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-23 14:03:29,106 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-23 14:03:29,107 [  DEBUG] port: 38394
+2013-09-23 14:03:29,107 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-23 14:03:30,378 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:30,378 [   INFO] Update result: you already have the latest tools
+2013-09-23 14:03:30,378 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-23 14:03:30,646 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:30,646 [  DEBUG] already authenticated via cookie - continuing
+2013-09-23 14:03:30,646 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-23 14:03:30,928 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:30,928 [  DEBUG] configuration is identical to last run
+2013-09-23 14:03:30,928 [  DEBUG] POST https://trigger.io/api/v1/reload/buildevent/create
+2013-09-23 14:03:31,249 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:31,249 [   INFO] Your app configuration has changed since your last build of this platform, performing a remote build of your app. Once this is downloaded future builds will be faster.
+2013-09-23 14:03:31,249 [   INFO] Starting new build
+2013-09-23 14:03:31,250 [   INFO] This could take a while, but will only happen again if you modify config.json
+2013-09-23 14:03:31,250 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-23 14:03:32,877 [  DEBUG] Checking API response for success or error
+2013-09-23 14:03:32,878 [  ERROR] Forge API call to app/205c6f36235d11e3928a1231392b77b0/build went wrong: 'bool' object is not iterable
+2013-09-23 14:03:32,878 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 347, in development_build
+    return development_build(unhandled_args, has_target)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 377, in development_build
+    build = remote.build(config=reload_config, target=target)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 740, in build
+    build = self._request_development_build(config, target, id=build.get('id', None))
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 718, in _request_development_build
+    return self._api_post(url, data=data)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 475, in _api_post
+    _check_api_response_for_error(url, 'POST', resp)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 121, in _check_api_response_for_error
+    _raise_if_json_error(content_dict, error_template, resp, url)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 81, in _raise_if_json_error
+    raise RequestError(resp, error_message, errors=errors)
+RequestError: Forge API call to app/205c6f36235d11e3928a1231392b77b0/build went wrong: 'bool' object is not iterable
+
+2013-09-23 14:04:24,607 [   INFO] Forge tools running at version 3.3.64
+2013-09-23 14:04:24,607 [  DEBUG] Checking for update zip...
+2013-09-23 14:04:24,612 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-23 14:04:24,612 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-23 14:04:24,612 [  DEBUG] port: 38394
+2013-09-23 14:04:24,613 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-23 14:04:26,238 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:26,239 [   INFO] Update result: you already have the latest tools
+2013-09-23 14:04:26,239 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-23 14:04:26,508 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:26,508 [  DEBUG] already authenticated via cookie - continuing
+2013-09-23 14:04:26,508 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-23 14:04:26,776 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:26,909 [  DEBUG] 'modules' has changed in configuration
+2013-09-23 14:04:26,909 [   INFO] Your local config has been changed, downloading updated build instructions.
+2013-09-23 14:04:26,909 [   INFO] Fetching generation instructions for v2.0.1 into "/var/folders/cw/69bftr2s5w91zzj8jqdcdrnh0000gn/T/forge-templates-fEF9k0/.template"
+2013-09-23 14:04:26,909 [  DEBUG] GET https://trigger.io/api/v1/platform/v2.0.1/core_instructions
+2013-09-23 14:04:30,080 [  DEBUG] Unzipping instructions.zip to .
+2013-09-23 14:04:30,080 [   INFO] Removing old templates if present
+2013-09-23 14:04:30,081 [  DEBUG] Removing .template 
+2013-09-23 14:04:30,081 [   INFO] Using new templates
+2013-09-23 14:04:30,081 [  DEBUG] Moving /var/folders/cw/69bftr2s5w91zzj8jqdcdrnh0000gn/T/forge-templates-fEF9k0/.template to .template
+2013-09-23 14:04:30,154 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-23 14:04:30,154 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-23 14:04:30,154 [  DEBUG] port: 38394
+2013-09-23 14:04:30,154 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-23 14:04:31,425 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:31,425 [   INFO] Update result: you already have the latest tools
+2013-09-23 14:04:31,425 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-23 14:04:31,692 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:31,692 [  DEBUG] already authenticated via cookie - continuing
+2013-09-23 14:04:31,692 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-23 14:04:31,967 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:31,967 [  DEBUG] configuration is identical to last run
+2013-09-23 14:04:31,967 [  DEBUG] POST https://trigger.io/api/v1/reload/buildevent/create
+2013-09-23 14:04:32,339 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:32,339 [   INFO] Your app configuration has changed since your last build of this platform, performing a remote build of your app. Once this is downloaded future builds will be faster.
+2013-09-23 14:04:32,340 [   INFO] Starting new build
+2013-09-23 14:04:32,340 [   INFO] This could take a while, but will only happen again if you modify config.json
+2013-09-23 14:04:32,340 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-23 14:04:32,557 [  DEBUG] Checking API response for success or error
+2013-09-23 14:04:32,557 [  ERROR] Forge API call to app/205c6f36235d11e3928a1231392b77b0/build went wrong: Unexpected property in config.json: 'level'. Please consult 'Config File Reference' at http://docs.trigger.io for guidance.
+2013-09-23 14:04:32,557 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 347, in development_build
+    return development_build(unhandled_args, has_target)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 377, in development_build
+    build = remote.build(config=reload_config, target=target)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 740, in build
+    build = self._request_development_build(config, target, id=build.get('id', None))
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 718, in _request_development_build
+    return self._api_post(url, data=data)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 475, in _api_post
+    _check_api_response_for_error(url, 'POST', resp)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 121, in _check_api_response_for_error
+    _raise_if_json_error(content_dict, error_template, resp, url)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 81, in _raise_if_json_error
+    raise RequestError(resp, error_message, errors=errors)
+RequestError: Forge API call to app/205c6f36235d11e3928a1231392b77b0/build went wrong: Unexpected property in config.json: 'level'. Please consult 'Config File Reference' at http://docs.trigger.io for guidance.
+
+2013-09-24 10:51:59,395 [   INFO] Forge tools running at version 3.3.64
+2013-09-24 10:51:59,395 [  DEBUG] Checking for update zip...
+2013-09-24 10:51:59,574 [  DEBUG] Enabled platforms: ['reload']
+2013-09-24 10:51:59,574 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-24 10:51:59,574 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-24 10:51:59,574 [  DEBUG] port: 38394
+2013-09-24 10:51:59,574 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-24 10:52:00,845 [  DEBUG] Checking API response for success or error
+2013-09-24 10:52:00,845 [  DEBUG] already authenticated via cookie - continuing
+2013-09-24 10:52:00,845 [  ERROR] Expecting command to after 'forge reload'
+2013-09-24 10:52:00,845 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 505, in reload
+    forge.reload.run_command(build_to_run, remote, unhandled_args)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/reload.py", line 22, in run_command
+    raise ReloadError("Expecting command to after 'forge reload'")
+ReloadError: Expecting command to after 'forge reload'
+
+2013-09-24 10:52:04,475 [   INFO] Forge tools running at version 3.3.64
+2013-09-24 10:52:04,475 [  DEBUG] Checking for update zip...
+2013-09-24 10:52:04,652 [  DEBUG] Enabled platforms: ['reload']
+2013-09-24 10:52:04,652 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-24 10:52:04,652 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-24 10:52:04,652 [  DEBUG] port: 38394
+2013-09-24 10:52:04,652 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-24 10:52:05,921 [  DEBUG] Checking API response for success or error
+2013-09-24 10:52:05,921 [  DEBUG] already authenticated via cookie - continuing
+2013-09-24 10:52:05,921 [  ERROR] Unknown command 'forge reload default'
+2013-09-24 10:52:05,921 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 505, in reload
+    forge.reload.run_command(build_to_run, remote, unhandled_args)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/reload.py", line 40, in run_command
+    raise ReloadError("Unknown command 'forge reload %s'" % args[0])
+ReloadError: Unknown command 'forge reload default'
+
+2013-09-24 10:55:54,756 [   INFO] Forge tools running at version 3.3.64
+2013-09-24 10:55:54,756 [  DEBUG] Checking for update zip...
+2013-09-24 10:55:54,934 [  DEBUG] Enabled platforms: ['reload']
+2013-09-24 10:55:54,934 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-24 10:55:54,934 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-24 10:55:54,934 [  DEBUG] port: 38394
+2013-09-24 10:55:54,934 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-24 10:55:56,509 [  DEBUG] Checking API response for success or error
+2013-09-24 10:55:56,509 [  DEBUG] already authenticated via cookie - continuing
+2013-09-24 10:55:56,509 [  ERROR] Unknown command 'forge reload default'
+2013-09-24 10:55:56,509 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 505, in reload
+    forge.reload.run_command(build_to_run, remote, unhandled_args)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/reload.py", line 40, in run_command
+    raise ReloadError("Unknown command 'forge reload %s'" % args[0])
+ReloadError: Unknown command 'forge reload default'
+
+2013-09-25 10:45:24,583 [   INFO] Forge tools running at version 3.3.64
+2013-09-25 10:45:24,583 [  DEBUG] Checking for update zip...
+2013-09-25 10:45:24,588 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-25 10:45:24,589 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-25 10:45:24,589 [  DEBUG] port: 38394
+2013-09-25 10:45:24,590 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-25 10:45:26,519 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:26,520 [   INFO] Update result: you already have the latest tools
+2013-09-25 10:45:26,520 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-25 10:45:26,941 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:26,941 [  DEBUG] already authenticated via cookie - continuing
+2013-09-25 10:45:26,941 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-25 10:45:27,261 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:27,391 [  DEBUG] configuration is identical to last run
+2013-09-25 10:45:27,391 [  DEBUG] POST https://trigger.io/api/v1/reload/buildevent/create
+2013-09-25 10:45:27,710 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:27,710 [   INFO] Your app configuration has changed since your last build of this platform, performing a remote build of your app. Once this is downloaded future builds will be faster.
+2013-09-25 10:45:27,711 [   INFO] Starting new build
+2013-09-25 10:45:27,711 [   INFO] This could take a while, but will only happen again if you modify config.json
+2013-09-25 10:45:27,711 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-25 10:45:28,031 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:28,031 [  DEBUG] build 25346 is pending...
+2013-09-25 10:45:38,040 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-25 10:45:38,365 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:38,365 [  DEBUG] build 25346 is working...
+2013-09-25 10:45:48,349 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-25 10:45:48,770 [  DEBUG] Checking API response for success or error
+2013-09-25 10:45:48,770 [  ERROR] build failed: [  DEBUG] 2013-09-25 01:45:30,559 -- inspecting build id 25346
+[   INFO] 2013-09-25 01:45:31,946 -- running build "ios task  25346"
+[   INFO] 2013-09-25 01:45:31,961 -- adding "/mnt/stable/platform-source/v2.0.1/generate" to sys.path
+[  DEBUG] 2013-09-25 01:45:31,962 -- set sys.path to be [u'/mnt/stable/platform-source/v2.0.1/generate', '/opt/stable/website', '/opt/stable/stable-python-env/src/django-registration', '/opt/stable/stable-python-env/src/validictory', '/opt/stable/stable-python-env/src/django-haystack-dev', '/opt/stable/stable-python-env/src/django-haystackbrowser', '/opt/stable/stable-python-env/lib/python27.zip', '/opt/stable/stable-python-env/lib/python2.7', '/opt/stable/stable-python-env/lib/python2.7/plat-darwin', '/opt/stable/stable-python-env/lib/python2.7/plat-mac', '/opt/stable/stable-python-env/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/Extras/lib/python', '/opt/stable/stable-python-env/lib/python2.7/lib-tk', '/opt/stable/stable-python-env/lib/python2.7/lib-old', '/opt/stable/stable-python-env/lib/python2.7/lib-dynload', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/lib/python2.7/site-packages', '/opt/stable/stable-python-env/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg-info']
+[  DEBUG] 2013-09-25 01:45:32,417 -- reading system config file from /opt/stable/SYSTEM_BUILD_CONFIG.json
+[  DEBUG] 2013-09-25 01:45:34,174 -- Enabled platforms: [u'ios']
+[  DEBUG] 2013-09-25 01:45:34,175 -- <ForgeTask (ios)> running...
+[  DEBUG] 2013-09-25 01:45:34,186 -- <ForgeTask (ios)> script:
+[{'do': {'preprocess_config': ()}},
+ {'do': {'populate_package_names': ()}},
+ {'do': {'resolve_urls': ('modules.activations.config.activations.[].scripts.[]',
+                          'modules.activations.config.activations.[].styles.[]',
+                          'modules.icons.config.chrome.*',
+                          'modules.icons.config.safari.*',
+                          'modules.icons.config.firefox.*',
+                          'modules.icons.config.ie.*',
+                          'modules.launchimage.config.android',
+                          'modules.launchimage.config.android-landscape',
+                          'modules.button.config.default_icon',
+                          'modules.button.config.default_popup',
+                          'modules.button.config.default_icons.*')}},
+ {'do': {'addon_source': 'common-v2'}},
+ {'do': {'addon_source': 'module/schema'}},
+ {'do': {'addon_source': 'ios/ForgeCore'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/js'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'copy_files': {'from': 'common-v2/forge',
+                        'to': 'ios/app/ForgeInspector/assets/forge'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-prefix.js'}},
+ {'do': {'add_to_all_js': 'common-v2/config.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/ios.js'},
+  'when': {'platform_is': 'ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/logging/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/internal/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/mobile.js'},
+  'when': {'platform_is': 'android,an-inspector,ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/reload.js'}},
+ {'do': {'add_to_all_js': 'common-v2/tools.js'}},
+ {'do': {'add_to_all_js': 'ios/js/api-ios.js'},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-expose.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api-suffix.js'}},
+ {'do': {'download_and_extract_modules': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'add_modules_ios': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'minify_in_place': 'ios/app/ForgeInspector/assets/forge/all.js'},
+  'when': {'is_external': (), 'platform_is': 'ios'}},
+ {'do': {'xcode_build': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'remove_files': 'common-v2'}},
+ {'do': {'rename_files': {'from': 'ios/app/dist', 'to': 'development/ios'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'move_output': 'development'}},
+ {'do': {'remember_build_output_location': ()}}]
+[   INFO] 2013-09-25 01:45:34,271 -- preprocessing configuration
+[   INFO] 2013-09-25 01:45:34,272 -- copying source directory /mnt/stable/platform-source/v2.0.1/common-v2 to common-v2
+[   INFO] 2013-09-25 01:45:34,283 -- copying source directory /mnt/stable/platform-source/v2.0.1/module/schema to module/schema
+[   INFO] 2013-09-25 01:45:34,285 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/ForgeCore to ios/ForgeCore
+[   INFO] 2013-09-25 01:45:34,301 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/app to ios/app
+[   INFO] 2013-09-25 01:45:34,307 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/js to ios/js
+[  DEBUG] 2013-09-25 01:45:34,324 -- copying common-v2/forge to ios/app/ForgeInspector/assets/forge
+[  DEBUG] 2013-09-25 01:45:34,325 -- concatenating common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,325 -- appended common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,326 -- concatenating common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,326 -- appended common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,326 -- concatenating common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,327 -- appended common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,327 -- concatenating common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,327 -- appended common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,327 -- concatenating common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,327 -- appended common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,328 -- concatenating common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,328 -- appended common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,328 -- concatenating common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,328 -- appended common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,329 -- concatenating common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,329 -- appended common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,329 -- concatenating common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,329 -- appended common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,330 -- concatenating common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,330 -- appended common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,330 -- concatenating common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,330 -- appended common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,330 -- concatenating ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- appended ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,331 -- concatenating common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- appended common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,331 -- concatenating common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- appended common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- Downloading modules
+[   INFO] 2013-09-25 01:45:34,332 -- Downloading module: topbar
+[  DEBUG] 2013-09-25 01:45:34,332 -- Downloading module topbar-2.1
+[   INFO] 2013-09-25 01:45:35,490 -- Downloaded module: topbar
+[   INFO] 2013-09-25 01:45:35,490 -- Downloading module: prefs
+[  DEBUG] 2013-09-25 01:45:35,491 -- Downloading module prefs-2.0
+[   INFO] 2013-09-25 01:45:36,415 -- Downloaded module: prefs
+[   INFO] 2013-09-25 01:45:36,416 -- Downloading module: icons
+[  DEBUG] 2013-09-25 01:45:36,416 -- Downloading module icons-2.1
+[   INFO] 2013-09-25 01:45:37,261 -- Downloaded module: icons
+[   INFO] 2013-09-25 01:45:37,261 -- Adding ios modules to build
+[   INFO] 2013-09-25 01:45:37,388 -- cleaning up source directories
+[  ERROR] 2013-09-25 01:45:37,388 -- Validation failed for module 'icons' with error: Value u'' for field '144' cannot be blank'
+2013-09-25 10:45:48,771 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 377, in development_build
+    build = remote.build(config=reload_config, target=target)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 750, in build
+    raise ForgeError('build failed: %s' % build['log_output'])
+ForgeError: build failed: [  DEBUG] 2013-09-25 01:45:30,559 -- inspecting build id 25346
+[   INFO] 2013-09-25 01:45:31,946 -- running build "ios task  25346"
+[   INFO] 2013-09-25 01:45:31,961 -- adding "/mnt/stable/platform-source/v2.0.1/generate" to sys.path
+[  DEBUG] 2013-09-25 01:45:31,962 -- set sys.path to be [u'/mnt/stable/platform-source/v2.0.1/generate', '/opt/stable/website', '/opt/stable/stable-python-env/src/django-registration', '/opt/stable/stable-python-env/src/validictory', '/opt/stable/stable-python-env/src/django-haystack-dev', '/opt/stable/stable-python-env/src/django-haystackbrowser', '/opt/stable/stable-python-env/lib/python27.zip', '/opt/stable/stable-python-env/lib/python2.7', '/opt/stable/stable-python-env/lib/python2.7/plat-darwin', '/opt/stable/stable-python-env/lib/python2.7/plat-mac', '/opt/stable/stable-python-env/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/Extras/lib/python', '/opt/stable/stable-python-env/lib/python2.7/lib-tk', '/opt/stable/stable-python-env/lib/python2.7/lib-old', '/opt/stable/stable-python-env/lib/python2.7/lib-dynload', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/lib/python2.7/site-packages', '/opt/stable/stable-python-env/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg-info']
+[  DEBUG] 2013-09-25 01:45:32,417 -- reading system config file from /opt/stable/SYSTEM_BUILD_CONFIG.json
+[  DEBUG] 2013-09-25 01:45:34,174 -- Enabled platforms: [u'ios']
+[  DEBUG] 2013-09-25 01:45:34,175 -- <ForgeTask (ios)> running...
+[  DEBUG] 2013-09-25 01:45:34,186 -- <ForgeTask (ios)> script:
+[{'do': {'preprocess_config': ()}},
+ {'do': {'populate_package_names': ()}},
+ {'do': {'resolve_urls': ('modules.activations.config.activations.[].scripts.[]',
+                          'modules.activations.config.activations.[].styles.[]',
+                          'modules.icons.config.chrome.*',
+                          'modules.icons.config.safari.*',
+                          'modules.icons.config.firefox.*',
+                          'modules.icons.config.ie.*',
+                          'modules.launchimage.config.android',
+                          'modules.launchimage.config.android-landscape',
+                          'modules.button.config.default_icon',
+                          'modules.button.config.default_popup',
+                          'modules.button.config.default_icons.*')}},
+ {'do': {'addon_source': 'common-v2'}},
+ {'do': {'addon_source': 'module/schema'}},
+ {'do': {'addon_source': 'ios/ForgeCore'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/js'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'copy_files': {'from': 'common-v2/forge',
+                        'to': 'ios/app/ForgeInspector/assets/forge'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-prefix.js'}},
+ {'do': {'add_to_all_js': 'common-v2/config.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/ios.js'},
+  'when': {'platform_is': 'ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/logging/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/internal/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/mobile.js'},
+  'when': {'platform_is': 'android,an-inspector,ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/reload.js'}},
+ {'do': {'add_to_all_js': 'common-v2/tools.js'}},
+ {'do': {'add_to_all_js': 'ios/js/api-ios.js'},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-expose.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api-suffix.js'}},
+ {'do': {'download_and_extract_modules': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'add_modules_ios': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'minify_in_place': 'ios/app/ForgeInspector/assets/forge/all.js'},
+  'when': {'is_external': (), 'platform_is': 'ios'}},
+ {'do': {'xcode_build': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'remove_files': 'common-v2'}},
+ {'do': {'rename_files': {'from': 'ios/app/dist', 'to': 'development/ios'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'move_output': 'development'}},
+ {'do': {'remember_build_output_location': ()}}]
+[   INFO] 2013-09-25 01:45:34,271 -- preprocessing configuration
+[   INFO] 2013-09-25 01:45:34,272 -- copying source directory /mnt/stable/platform-source/v2.0.1/common-v2 to common-v2
+[   INFO] 2013-09-25 01:45:34,283 -- copying source directory /mnt/stable/platform-source/v2.0.1/module/schema to module/schema
+[   INFO] 2013-09-25 01:45:34,285 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/ForgeCore to ios/ForgeCore
+[   INFO] 2013-09-25 01:45:34,301 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/app to ios/app
+[   INFO] 2013-09-25 01:45:34,307 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/js to ios/js
+[  DEBUG] 2013-09-25 01:45:34,324 -- copying common-v2/forge to ios/app/ForgeInspector/assets/forge
+[  DEBUG] 2013-09-25 01:45:34,325 -- concatenating common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,325 -- appended common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,326 -- concatenating common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,326 -- appended common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,326 -- concatenating common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,327 -- appended common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,327 -- concatenating common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,327 -- appended common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,327 -- concatenating common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,327 -- appended common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,328 -- concatenating common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,328 -- appended common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,328 -- concatenating common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,328 -- appended common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,329 -- concatenating common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,329 -- appended common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,329 -- concatenating common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,329 -- appended common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,330 -- concatenating common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,330 -- appended common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,330 -- concatenating common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,330 -- appended common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,330 -- concatenating ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- appended ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,331 -- concatenating common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- appended common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:45:34,331 -- concatenating common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- appended common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:45:34,331 -- Downloading modules
+[   INFO] 2013-09-25 01:45:34,332 -- Downloading module: topbar
+[  DEBUG] 2013-09-25 01:45:34,332 -- Downloading module topbar-2.1
+[   INFO] 2013-09-25 01:45:35,490 -- Downloaded module: topbar
+[   INFO] 2013-09-25 01:45:35,490 -- Downloading module: prefs
+[  DEBUG] 2013-09-25 01:45:35,491 -- Downloading module prefs-2.0
+[   INFO] 2013-09-25 01:45:36,415 -- Downloaded module: prefs
+[   INFO] 2013-09-25 01:45:36,416 -- Downloading module: icons
+[  DEBUG] 2013-09-25 01:45:36,416 -- Downloading module icons-2.1
+[   INFO] 2013-09-25 01:45:37,261 -- Downloaded module: icons
+[   INFO] 2013-09-25 01:45:37,261 -- Adding ios modules to build
+[   INFO] 2013-09-25 01:45:37,388 -- cleaning up source directories
+[  ERROR] 2013-09-25 01:45:37,388 -- Validation failed for module 'icons' with error: Value u'' for field '144' cannot be blank'
+
+2013-09-25 10:46:18,041 [   INFO] Forge tools running at version 3.3.64
+2013-09-25 10:46:18,041 [  DEBUG] Checking for update zip...
+2013-09-25 10:46:18,047 [  DEBUG] Forge build tools version: 3.3.64
+2013-09-25 10:46:18,047 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2013-09-25 10:46:18,047 [  DEBUG] port: 38394
+2013-09-25 10:46:18,048 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/64/
+2013-09-25 10:46:19,370 [  DEBUG] Checking API response for success or error
+2013-09-25 10:46:19,370 [   INFO] Update result: you already have the latest tools
+2013-09-25 10:46:19,370 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2013-09-25 10:46:19,641 [  DEBUG] Checking API response for success or error
+2013-09-25 10:46:19,641 [  DEBUG] already authenticated via cookie - continuing
+2013-09-25 10:46:19,641 [  DEBUG] GET https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/should_fetch_core_instructions
+2013-09-25 10:46:19,911 [  DEBUG] Checking API response for success or error
+2013-09-25 10:46:20,038 [  DEBUG] configuration is identical to last run
+2013-09-25 10:46:20,038 [  DEBUG] POST https://trigger.io/api/v1/reload/buildevent/create
+2013-09-25 10:46:20,308 [  DEBUG] Checking API response for success or error
+2013-09-25 10:46:20,308 [   INFO] Your app configuration has changed since your last build of this platform, performing a remote build of your app. Once this is downloaded future builds will be faster.
+2013-09-25 10:46:20,308 [   INFO] Starting new build
+2013-09-25 10:46:20,308 [   INFO] This could take a while, but will only happen again if you modify config.json
+2013-09-25 10:46:20,308 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-25 10:46:20,678 [  DEBUG] Checking API response for success or error
+2013-09-25 10:46:20,678 [  DEBUG] build 25347 is pending...
+2013-09-25 10:46:30,666 [  DEBUG] POST https://trigger.io/api/v1/app/205c6f36235d11e3928a1231392b77b0/build
+2013-09-25 10:46:30,986 [  DEBUG] Checking API response for success or error
+2013-09-25 10:46:30,986 [  ERROR] build failed: [  DEBUG] 2013-09-25 01:46:21,950 -- inspecting build id 25347
+[   INFO] 2013-09-25 01:46:23,442 -- running build "ios task  25347"
+[   INFO] 2013-09-25 01:46:23,443 -- adding "/mnt/stable/platform-source/v2.0.1/generate" to sys.path
+[  DEBUG] 2013-09-25 01:46:23,444 -- set sys.path to be [u'/mnt/stable/platform-source/v2.0.1/generate', '/opt/stable/website', '/opt/stable/stable-python-env/src/django-registration', '/opt/stable/stable-python-env/src/validictory', '/opt/stable/stable-python-env/src/django-haystack-dev', '/opt/stable/stable-python-env/src/django-haystackbrowser', '/opt/stable/stable-python-env/lib/python27.zip', '/opt/stable/stable-python-env/lib/python2.7', '/opt/stable/stable-python-env/lib/python2.7/plat-darwin', '/opt/stable/stable-python-env/lib/python2.7/plat-mac', '/opt/stable/stable-python-env/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/Extras/lib/python', '/opt/stable/stable-python-env/lib/python2.7/lib-tk', '/opt/stable/stable-python-env/lib/python2.7/lib-old', '/opt/stable/stable-python-env/lib/python2.7/lib-dynload', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/lib/python2.7/site-packages', '/opt/stable/stable-python-env/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg-info']
+[  DEBUG] 2013-09-25 01:46:23,499 -- reading system config file from /opt/stable/SYSTEM_BUILD_CONFIG.json
+[  DEBUG] 2013-09-25 01:46:24,951 -- Enabled platforms: [u'ios']
+[  DEBUG] 2013-09-25 01:46:24,952 -- <ForgeTask (ios)> running...
+[  DEBUG] 2013-09-25 01:46:24,963 -- <ForgeTask (ios)> script:
+[{'do': {'preprocess_config': ()}},
+ {'do': {'populate_package_names': ()}},
+ {'do': {'resolve_urls': ('modules.activations.config.activations.[].scripts.[]',
+                          'modules.activations.config.activations.[].styles.[]',
+                          'modules.icons.config.chrome.*',
+                          'modules.icons.config.safari.*',
+                          'modules.icons.config.firefox.*',
+                          'modules.icons.config.ie.*',
+                          'modules.launchimage.config.android',
+                          'modules.launchimage.config.android-landscape',
+                          'modules.button.config.default_icon',
+                          'modules.button.config.default_popup',
+                          'modules.button.config.default_icons.*')}},
+ {'do': {'addon_source': 'common-v2'}},
+ {'do': {'addon_source': 'module/schema'}},
+ {'do': {'addon_source': 'ios/ForgeCore'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/js'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'copy_files': {'from': 'common-v2/forge',
+                        'to': 'ios/app/ForgeInspector/assets/forge'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-prefix.js'}},
+ {'do': {'add_to_all_js': 'common-v2/config.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/ios.js'},
+  'when': {'platform_is': 'ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/logging/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/internal/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/mobile.js'},
+  'when': {'platform_is': 'android,an-inspector,ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/reload.js'}},
+ {'do': {'add_to_all_js': 'common-v2/tools.js'}},
+ {'do': {'add_to_all_js': 'ios/js/api-ios.js'},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-expose.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api-suffix.js'}},
+ {'do': {'download_and_extract_modules': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'add_modules_ios': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'minify_in_place': 'ios/app/ForgeInspector/assets/forge/all.js'},
+  'when': {'is_external': (), 'platform_is': 'ios'}},
+ {'do': {'xcode_build': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'remove_files': 'common-v2'}},
+ {'do': {'rename_files': {'from': 'ios/app/dist', 'to': 'development/ios'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'move_output': 'development'}},
+ {'do': {'remember_build_output_location': ()}}]
+[   INFO] 2013-09-25 01:46:24,964 -- preprocessing configuration
+[   INFO] 2013-09-25 01:46:24,964 -- copying source directory /mnt/stable/platform-source/v2.0.1/common-v2 to common-v2
+[   INFO] 2013-09-25 01:46:24,974 -- copying source directory /mnt/stable/platform-source/v2.0.1/module/schema to module/schema
+[   INFO] 2013-09-25 01:46:24,975 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/ForgeCore to ios/ForgeCore
+[   INFO] 2013-09-25 01:46:24,992 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/app to ios/app
+[   INFO] 2013-09-25 01:46:24,998 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/js to ios/js
+[  DEBUG] 2013-09-25 01:46:25,000 -- copying common-v2/forge to ios/app/ForgeInspector/assets/forge
+[  DEBUG] 2013-09-25 01:46:25,000 -- concatenating common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,000 -- appended common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,001 -- concatenating common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,001 -- appended common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,001 -- concatenating common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,001 -- appended common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,001 -- concatenating common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,002 -- appended common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,002 -- concatenating common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,002 -- appended common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,002 -- concatenating common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,003 -- appended common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,003 -- concatenating common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,003 -- appended common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,003 -- concatenating common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,003 -- appended common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,004 -- concatenating common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,004 -- appended common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,004 -- concatenating common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,004 -- appended common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,005 -- concatenating common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,005 -- appended common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,005 -- concatenating ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,005 -- appended ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,005 -- concatenating common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,006 -- appended common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,006 -- concatenating common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,006 -- appended common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,006 -- Downloading modules
+[   INFO] 2013-09-25 01:46:25,007 -- Downloading module: topbar
+[  DEBUG] 2013-09-25 01:46:25,007 -- Downloading module topbar-2.1
+[   INFO] 2013-09-25 01:46:26,316 -- Downloaded module: topbar
+[   INFO] 2013-09-25 01:46:26,316 -- Downloading module: prefs
+[  DEBUG] 2013-09-25 01:46:26,317 -- Downloading module prefs-2.0
+[   INFO] 2013-09-25 01:46:27,288 -- Downloaded module: prefs
+[   INFO] 2013-09-25 01:46:27,288 -- Downloading module: icons
+[  DEBUG] 2013-09-25 01:46:27,288 -- Downloading module icons-2.1
+[   INFO] 2013-09-25 01:46:28,082 -- Downloaded module: icons
+[   INFO] 2013-09-25 01:46:28,083 -- Adding ios modules to build
+[   INFO] 2013-09-25 01:46:28,169 -- cleaning up source directories
+[  ERROR] 2013-09-25 01:46:28,169 -- Validation failed for module 'icons' with error: Value u'' for field '144' cannot be blank'
+2013-09-25 10:46:30,987 [  DEBUG] Traceback (most recent call last):
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/main.py", line 377, in development_build
+    build = remote.build(config=reload_config, target=target)
+  File "/Applications/TriggerToolkit.app/Contents/MacOS/build-tools/forge/remote.py", line 750, in build
+    raise ForgeError('build failed: %s' % build['log_output'])
+ForgeError: build failed: [  DEBUG] 2013-09-25 01:46:21,950 -- inspecting build id 25347
+[   INFO] 2013-09-25 01:46:23,442 -- running build "ios task  25347"
+[   INFO] 2013-09-25 01:46:23,443 -- adding "/mnt/stable/platform-source/v2.0.1/generate" to sys.path
+[  DEBUG] 2013-09-25 01:46:23,444 -- set sys.path to be [u'/mnt/stable/platform-source/v2.0.1/generate', '/opt/stable/website', '/opt/stable/stable-python-env/src/django-registration', '/opt/stable/stable-python-env/src/validictory', '/opt/stable/stable-python-env/src/django-haystack-dev', '/opt/stable/stable-python-env/src/django-haystackbrowser', '/opt/stable/stable-python-env/lib/python27.zip', '/opt/stable/stable-python-env/lib/python2.7', '/opt/stable/stable-python-env/lib/python2.7/plat-darwin', '/opt/stable/stable-python-env/lib/python2.7/plat-mac', '/opt/stable/stable-python-env/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/Extras/lib/python', '/opt/stable/stable-python-env/lib/python2.7/lib-tk', '/opt/stable/stable-python-env/lib/python2.7/lib-old', '/opt/stable/stable-python-env/lib/python2.7/lib-dynload', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/opt/stable/stable-python-env/lib/python2.7/site-packages', '/opt/stable/stable-python-env/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg-info']
+[  DEBUG] 2013-09-25 01:46:23,499 -- reading system config file from /opt/stable/SYSTEM_BUILD_CONFIG.json
+[  DEBUG] 2013-09-25 01:46:24,951 -- Enabled platforms: [u'ios']
+[  DEBUG] 2013-09-25 01:46:24,952 -- <ForgeTask (ios)> running...
+[  DEBUG] 2013-09-25 01:46:24,963 -- <ForgeTask (ios)> script:
+[{'do': {'preprocess_config': ()}},
+ {'do': {'populate_package_names': ()}},
+ {'do': {'resolve_urls': ('modules.activations.config.activations.[].scripts.[]',
+                          'modules.activations.config.activations.[].styles.[]',
+                          'modules.icons.config.chrome.*',
+                          'modules.icons.config.safari.*',
+                          'modules.icons.config.firefox.*',
+                          'modules.icons.config.ie.*',
+                          'modules.launchimage.config.android',
+                          'modules.launchimage.config.android-landscape',
+                          'modules.button.config.default_icon',
+                          'modules.button.config.default_popup',
+                          'modules.button.config.default_icons.*')}},
+ {'do': {'addon_source': 'common-v2'}},
+ {'do': {'addon_source': 'module/schema'}},
+ {'do': {'addon_source': 'ios/ForgeCore'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'addon_source': 'ios/js'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'copy_files': {'from': 'common-v2/forge',
+                        'to': 'ios/app/ForgeInspector/assets/forge'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-prefix.js'}},
+ {'do': {'add_to_all_js': 'common-v2/config.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/is/ios.js'},
+  'when': {'platform_is': 'ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/logging/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/internal/default.js'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/mobile.js'},
+  'when': {'platform_is': 'android,an-inspector,ios,ios-inspector'}},
+ {'do': {'add_to_all_js': 'common-v2/modules/event/common.js'}},
+ {'do': {'add_to_all_js': 'common-v2/reload.js'}},
+ {'do': {'add_to_all_js': 'common-v2/tools.js'}},
+ {'do': {'add_to_all_js': 'ios/js/api-ios.js'},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'add_to_all_js': 'common-v2/api-expose.js'}},
+ {'do': {'add_to_all_js': 'common-v2/api-suffix.js'}},
+ {'do': {'download_and_extract_modules': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'add_modules_ios': ()}, 'when': {'platform_is': 'ios'}},
+ {'do': {'minify_in_place': 'ios/app/ForgeInspector/assets/forge/all.js'},
+  'when': {'is_external': (), 'platform_is': 'ios'}},
+ {'do': {'xcode_build': 'ios/app'}, 'when': {'platform_is': 'ios'}},
+ {'do': {'remove_files': 'common-v2'}},
+ {'do': {'rename_files': {'from': 'ios/app/dist', 'to': 'development/ios'}},
+  'when': {'platform_is': 'ios'}},
+ {'do': {'move_output': 'development'}},
+ {'do': {'remember_build_output_location': ()}}]
+[   INFO] 2013-09-25 01:46:24,964 -- preprocessing configuration
+[   INFO] 2013-09-25 01:46:24,964 -- copying source directory /mnt/stable/platform-source/v2.0.1/common-v2 to common-v2
+[   INFO] 2013-09-25 01:46:24,974 -- copying source directory /mnt/stable/platform-source/v2.0.1/module/schema to module/schema
+[   INFO] 2013-09-25 01:46:24,975 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/ForgeCore to ios/ForgeCore
+[   INFO] 2013-09-25 01:46:24,992 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/app to ios/app
+[   INFO] 2013-09-25 01:46:24,998 -- copying source directory /mnt/stable/platform-source/v2.0.1/ios/js to ios/js
+[  DEBUG] 2013-09-25 01:46:25,000 -- copying common-v2/forge to ios/app/ForgeInspector/assets/forge
+[  DEBUG] 2013-09-25 01:46:25,000 -- concatenating common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,000 -- appended common-v2/api-prefix.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,001 -- concatenating common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,001 -- appended common-v2/config.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,001 -- concatenating common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,001 -- appended common-v2/api.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,001 -- concatenating common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,002 -- appended common-v2/modules/is/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,002 -- concatenating common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,002 -- appended common-v2/modules/is/ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,002 -- concatenating common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,003 -- appended common-v2/modules/logging/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,003 -- concatenating common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,003 -- appended common-v2/modules/internal/default.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,003 -- concatenating common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,003 -- appended common-v2/modules/event/mobile.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,004 -- concatenating common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,004 -- appended common-v2/modules/event/common.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,004 -- concatenating common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,004 -- appended common-v2/reload.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,005 -- concatenating common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,005 -- appended common-v2/tools.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,005 -- concatenating ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,005 -- appended ios/js/api-ios.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,005 -- concatenating common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,006 -- appended common-v2/api-expose.js to ios/app/ForgeInspector/assets/forge/all.js
+[  DEBUG] 2013-09-25 01:46:25,006 -- concatenating common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,006 -- appended common-v2/api-suffix.js to ios/app/ForgeInspector/assets/forge/all.js
+[   INFO] 2013-09-25 01:46:25,006 -- Downloading modules
+[   INFO] 2013-09-25 01:46:25,007 -- Downloading module: topbar
+[  DEBUG] 2013-09-25 01:46:25,007 -- Downloading module topbar-2.1
+[   INFO] 2013-09-25 01:46:26,316 -- Downloaded module: topbar
+[   INFO] 2013-09-25 01:46:26,316 -- Downloading module: prefs
+[  DEBUG] 2013-09-25 01:46:26,317 -- Downloading module prefs-2.0
+[   INFO] 2013-09-25 01:46:27,288 -- Downloaded module: prefs
+[   INFO] 2013-09-25 01:46:27,288 -- Downloading module: icons
+[  DEBUG] 2013-09-25 01:46:27,288 -- Downloading module icons-2.1
+[   INFO] 2013-09-25 01:46:28,082 -- Downloaded module: icons
+[   INFO] 2013-09-25 01:46:28,083 -- Adding ios modules to build
+[   INFO] 2013-09-25 01:46:28,169 -- cleaning up source directories
+[  ERROR] 2013-09-25 01:46:28,169 -- Validation failed for module 'icons' with error: Value u'' for field '144' cannot be blank'
+

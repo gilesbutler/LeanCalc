@@ -1,0 +1,10 @@
+{
+	"general": {},
+	"ios": {
+		"profiles": {
+			"DEFAULT": {}
+		},
+		"simulatorsdk": "7.0",
+		"simulatorfamily": "iphone"
+	}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	<head><script src='../_forge/app_config.js'></script><script src='../_forge/all.js'></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/jquery/jquery.min.js"></script>
+		<script src="js/jquery.fs.selecter.min.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/jquery.fs.selecter.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<style>
+			.hidden {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div ng-controller="LbmCtrl">
+			<div>
+				<form>
+
+					<div class="userWeight">
+						<label for="userWeight">Your weight is&hellip;</label>
+						<input type="text" name="userWeight" ng-change="calculateLbm()" ng-model="userWeight" size="20" value="{{user.weight}}">
+						<select ng-model="weightUnit.value" ng-options="v for v in weightUnit.values"></select>
+					</div>
+
+					<div class="userBodyfat">
+						<label for="userBodyFat">And your body fat is&hellip;</label>
+						<input type="text" name="userBodyFat" ng-change="calculateLbm()" ng-model="userBodyFat" size="20" value="{{user.bodyFat}}">
+					</div>
+
+					<!-- <input type="submit" value="Calculate Lean Body Mass"> -->
+
+					<div class="lbmResult {{lbmResultClass}}" ng-if="user.lbm">
+						<p class="lbmResultInfo">Your Lean Body Mass is&hellip;</p>
+						<p class="lbmResultMeta">{{user.lbm}}<span class="lbmResultMetaUnit">{{weightUnit.value}}</span></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
